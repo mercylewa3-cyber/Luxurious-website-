@@ -59,6 +59,40 @@ nav a:hover{
     color:gold;
 }
 
+.menu-btn{
+    display:none;
+    font-size:32px;
+    color:gold;
+    cursor:pointer;
+}
+
+@media(max-width:768px){
+
+    .menu-btn{
+        display:block;
+    }
+
+    nav{
+        display:none;
+        flex-direction:column;
+        position:absolute;
+        top:80px;
+        left:0;
+        width:100%;
+        background:black;
+        padding:20px 0;
+    }
+
+    nav.active{
+        display:flex;
+    }
+
+    nav a{
+        padding:15px;
+        text-align:center;
+    }
+}
+
 /* =========================
    HERO
 ========================= */
