@@ -3,62 +3,153 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Royal Luxury</title>
+    <title>Royal Luxury Estates</title>
 
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
 
-<header>
-    <div class="logo">ROYAL LUXURY</div>
+    <!-- HEADER -->
 
-    <nav>
-        <a href="#">Home</a>
-        <a href="#">Villas</a>
-        <a href="#">Services</a>
-        <a href="#">Contact</a>
-    </nav>
-</header>
+    <header>
+        <div class="logo">ROYAL LUXURY</div>
 
-<section class="hero fade-up">
-    <h1>Luxury Beyond Imagination</h1>
+        <nav>
+            <a href="#home">Home</a>
+            <a href="#villas">Villas</a>
+            <a href="#services">Services</a>
+            <a href="#gallery">Gallery</a>
+            <a href="#contact">Contact</a>
+        </nav>
+    </header>
 
-    <p>
-        Experience the lifestyle of kings, queens and the world's elite.
-    </p>
+    <!-- HERO -->
 
-    <button id="exploreBtn">Explore Now</button>
-</section>
+    <section class="hero fade-up" id="home">
 
-<script src="script.js"></script>
+        <div class="hero-content">
 
-<section class="villas fade-up">
+            <h1>Luxury Beyond Imagination</h1>
 
-    <h2>Luxury Villas</h2>
+            <p>
+                Discover world-class villas, private estates,
+                and experiences designed for kings, queens,
+                and the world's elite.
+            </p>
 
-    <div class="villa-container">
+            <button id="exploreBtn">Explore Collection</button>
 
-        <div class="villa-card">
-            <img src="https://images.unsplash.com/photo-1564013799919-ab600027ffc6" alt="">
-            <h3>Royal Palace Villa</h3>
-            <p>Luxury living with world-class comfort.</p>
         </div>
 
-        <div class="villa-card">
-            <img src="https://images.unsplash.com/photo-1613977257363-707ba9348227" alt="">
-            <h3>Golden Estate</h3>
-            <p>Designed for elegance and prestige.</p>
+    </section>
+
+    <!-- VILLAS -->
+
+    <section class="villas fade-up" id="villas">
+
+        <h2>Signature Estates</h2>
+
+        <div class="villa-container">
+
+            <div class="villa-card">
+                <img src="https://images.unsplash.com/photo-1564013799919-ab600027ffc6" alt="">
+                <h3>Royal Palace Villa</h3>
+                <p>Elegant architecture with breathtaking views.</p>
+            </div>
+
+            <div class="villa-card">
+                <img src="https://images.unsplash.com/photo-1512918728675-ed5a9ecdebfd" alt="">
+                <h3>Elite Residence</h3>
+                <p>Luxury living crafted for excellence.</p>
+            </div>
+
+            <div class="villa-card">
+                <img src="https://images.unsplash.com/photo-1613977257363-707ba9348227" alt="">
+                <h3>Golden Estate</h3>
+                <p>Exceptional comfort and prestige.</p>
+            </div>
+
         </div>
 
-        <div class="villa-card">
+    </section>
+
+    <!-- SERVICES -->
+
+    <section class="services fade-up" id="services">
+
+        <h2>Elite Services</h2>
+
+        <div class="service-grid">
+
+            <div class="service-card">
+                <h3>Private Villas</h3>
+                <p>Exclusive residences in premium locations.</p>
+            </div>
+
+            <div class="service-card">
+                <h3>Luxury Concierge</h3>
+                <p>Personal assistance whenever needed.</p>
+            </div>
+
+            <div class="service-card">
+                <h3>Private Security</h3>
+                <p>Discreet world-class protection.</p>
+            </div>
+
+        </div>
+
+    </section>
+
+    <!-- GALLERY -->
+
+    <section class="gallery fade-up" id="gallery">
+
+        <h2>Luxury Gallery</h2>
+
+        <div class="gallery-grid">
+
+            <img src="https://images.unsplash.com/photo-1505693416388-ac5ce068fe85" alt="">
             <img src="https://images.unsplash.com/photo-1512918728675-ed5a9ecdebfd" alt="">
-            <h3>Elite Residence</h3>
-            <p>Exclusive villas for extraordinary people.</p>
+            <img src="https://images.unsplash.com/photo-1564013799919-ab600027ffc6" alt="">
+            <img src="https://images.unsplash.com/photo-1613977257363-707ba9348227" alt="">
+
         </div>
 
-    </div>
+    </section>
 
-</section>
-    
+    <!-- CONTACT -->
+
+    <section class="contact fade-up" id="contact">
+
+        <h2>Request a Private Viewing</h2>
+
+        <form>
+
+            <input type="text" placeholder="Full Name">
+
+            <input type="email" placeholder="Email Address">
+
+            <textarea placeholder="Tell us about your dream property"></textarea>
+
+            <button type="submit">Send Request</button>
+
+        </form>
+
+    </section>
+
+    <!-- FOOTER -->
+
+    <footer>
+
+        <h3>ROYAL LUXURY</h3>
+
+        <p>Luxury • Prestige • Excellence</p>
+
+        <p>© 2026 Royal Luxury Estates</p>
+
+    </footer>
+
+    <script src="script.js"></script>
+
 </body>
-</html>
+            </html>
