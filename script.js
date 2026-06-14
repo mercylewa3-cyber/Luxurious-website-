@@ -5,10 +5,10 @@ menuBtn.addEventListener("click", () => {
 
     navMenu.classList.toggle("active");
 
-    if(navMenu.classList.contains("active")){
-        menuBtn.innerHTML = "✕";
+    if (navMenu.classList.contains("active")) {
+        menuBtn.textContent = "✕";
     } else {
-        menuBtn.innerHTML = "☰";
+        menuBtn.textContent = "☰";
     }
 
 });
